@@ -1,0 +1,10 @@
+{
+    "BinanceKeys": {
+        "API_Key": "Your_API_Key_Here",
+        "Secret_Key": "Your_Secret_API_Key_Here"
+    },
+    "Test_API_Key": "Your_TEST_API_Key_Here",
+        "Test_Secret_Key": "Your_TEST_SECRET_API_Key_Here"
+    },
+    "Testing": "True"
+}
