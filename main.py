@@ -38,5 +38,5 @@ if __name__ == '__main__':
         account = binance_interaction.query_account(api_key=api_key, secret_key=secret_key)
         if account['canTrade']:
             print("Let's Do This!")
-            strategy.strategy_one(timeframe="30m", percentage_rise=1, quote_asset="BUSD",
+            strategy.strategy_one(timeframe="1h", percentage_rise=1, quote_asset="BUSD",
                                   project_settings=project_settings)
